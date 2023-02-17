@@ -1,4 +1,4 @@
-declare module '@ckpack/vue-color' {
+declare module '@leiliu92/vue3-color' {
     import type { DefineComponent } from 'vue';
     import type { ColorInput, ColorFormats } from 'tinycolor2';
 

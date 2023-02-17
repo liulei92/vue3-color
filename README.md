@@ -2,7 +2,7 @@
 
 > Modified based on [https://github.com/xiaokaike/vue-color](https://github.com/xiaokaike/vue-color) to support vue3.0
 
-> Forked from [ckpack/vue-color](https://github.com/ckpack/vue-color)
+> Forked from [@ckpack/vue-color](https://github.com/ckpack/vue-color)
 
 > The purpose of the fork is to change package @ctrl/tinycolor to tinycolor2
 
@@ -25,7 +25,7 @@ We can import components we actually need, making the project smaller than other
   <Sketch v-model="colors"/>
 </template>
 <script>
-import { Sketch } from '@ckpack/vue-color';
+import { Sketch } from '@leiliu92/vue3-color';
 
 export default {
   components: {
@@ -45,7 +45,7 @@ export default {
 ```js
 import { createApp } from 'vue';
 import App from '@/App.vue';
-import { Sketch, create } from '@ckpack/vue-color';
+import { Sketch, create } from '@leiliu92/vue3-color';
 
 const app = createApp(App);
 app.use(create({
@@ -59,7 +59,7 @@ app.mount('#app');
 ```js
 import { createApp } from 'vue';
 import App from '@/App.vue';
-import VueColor from '@ckpack/vue-color';
+import VueColor from '@leiliu92/vue3-color';
 
 const app = createApp(App);
 
