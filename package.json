@@ -1,15 +1,15 @@
 {
-  "name": "@ckpack/vue-color",
+  "name": "@leiliu92/vue3-color",
   "version": "1.4.1",
-  "description": "(vue3.0) 🎨 Vue Color Pickers for Sketch, Photoshop, Chrome & more",
-  "repository": "https://github.com/ckpack/vue-color",
+  "description": "(vue3.0) 🎨 Vue Color Pickers for Sketch, Photoshop, Chrome & more; Forked from ckpack/vue-color",
+  "repository": "https://github.com/liulei92/vue3-color",
   "sideEffects": false,
   "type": "module",
   "types": "./types.d.ts",
   "main": "dist/index.js",
   "module": "libs/index.js",
   "unpkg": "dist/index.min.js",
-  "author": "chenkai",
+  "author": "leiliu92",
   "keywords": [
     "vue-color",
     "color",
@@ -61,7 +61,7 @@
   },
   "dependencies": {
     "material-colors": "^1.2.6",
-    "@ctrl/tinycolor": "^3.6.0"
+    "tinycolor2": "^1.6.0"
   },
   "engines": {
     "node": ">=12"
@@ -70,5 +70,8 @@
     "*.{js,jsx,vue}": [
       "eslint --fix"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

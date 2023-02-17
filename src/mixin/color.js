@@ -1,8 +1,4 @@
-import { TinyColor } from '@ctrl/tinycolor';
-
-function tinycolor(...args) {
-  return new TinyColor(...args);
-}
+import tinycolor from 'tinycolor2';
 
 function _colorChange(data, oldHue) {
   const alpha = data && data.a;

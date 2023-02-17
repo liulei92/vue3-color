@@ -2,6 +2,10 @@
 
 > Modified based on [https://github.com/xiaokaike/vue-color](https://github.com/xiaokaike/vue-color) to support vue3.0
 
+> Forked from [ckpack/vue-color](https://github.com/ckpack/vue-color)
+
+> The purpose of the fork is to change package @ctrl/tinycolor to tinycolor2
+
 🎨 Vue Color Pickers for Sketch, Photoshop, Chrome & more
 
 ![image](https://user-images.githubusercontent.com/30174970/114983369-1e5aa380-9ec3-11eb-9e77-b122d19f1ebd.png)

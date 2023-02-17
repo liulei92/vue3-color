@@ -1,15 +1,15 @@
 declare module '@ckpack/vue-color' {
     import type { DefineComponent } from 'vue';
-    import type { ColorInput, HSV, HSL, RGBA } from '@ctrl/tinycolor';
+    import type { ColorInput, ColorFormats } from 'tinycolor2';
 
     interface Payload {
         a: number
         hex: string
         hex8: string
-        hsl: HSL
-        hsv: HSV
+        hsl: ColorFormats.HSL
+        hsv: ColorFormats.HSV
         oldHue: number
-        rgba: RGBA
+        rgba: ColorFormats.RGBA
         source: 'rgba' | 'hsl' | 'hex' | 'hsv' | 'hsva'
     }
 
