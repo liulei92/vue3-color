@@ -73,11 +73,12 @@ export default {
         });
       }
       else if (data.h || data.s || data.l) {
+        const h = (data.h && /^\d+$/.test(data.h)) ? parseInt(data.h) : this.colors.hsl.h;
         const s = data.s ? (data.s.replace('%', '') / 100) : this.colors.hsl.s;
         const l = data.l ? (data.l.replace('%', '') / 100) : this.colors.hsl.l;
 
         this.colorChange({
-          h: data.h || this.colors.hsl.h,
+          h,
           s,
           l,
           source: 'hsl',
