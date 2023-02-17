@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1-beta.2](https://github.com/liulei92/vue3-color/compare/v1.4.1-beta.1...v1.4.1-beta.2) (2023-02-17)
+
+
+### Bug Fixes
+
+* update readme.md and types.d.ts ([3ca5eea](https://github.com/liulei92/vue3-color/commit/3ca5eea6bdcf52be624b0474e5ce43ce999464bb))
+
 ### 1.4.1-beta.1 (2023-02-17)
 
 
