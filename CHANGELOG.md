@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1-beta.4](https://github.com/liulei92/vue3-color/compare/v1.4.1-beta.3...v1.4.1-beta.4) (2023-02-17)
+
+
+### Bug Fixes
+
+* component Chrome hls's h fixed err ([c4c5007](https://github.com/liulei92/vue3-color/commit/c4c5007ea07a481749b007736129d49fd3935774))
+
 ### [1.4.1-beta.3](https://github.com/liulei92/vue3-color/compare/v1.4.1-beta.2...v1.4.1-beta.3) (2023-02-17)
 
 ### [1.4.1-beta.2](https://github.com/liulei92/vue3-color/compare/v1.4.1-beta.1...v1.4.1-beta.2) (2023-02-17)

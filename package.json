@@ -1,6 +1,6 @@
 {
   "name": "@leiliu92/vue3-color",
-  "version": "1.4.1-beta.3",
+  "version": "1.4.1-beta.4",
   "description": "(vue3.0) 🎨 Vue Color Pickers for Sketch, Photoshop, Chrome & more; Forked from ckpack/vue-color",
   "repository": "https://github.com/liulei92/vue3-color",
   "sideEffects": false,
